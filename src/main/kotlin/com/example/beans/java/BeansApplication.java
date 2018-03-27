@@ -28,17 +28,6 @@ public class BeansApplication {
                 .sources(BeansApplication.class)
                 .run(args);
     }
-/*
-    @Bean
-    RouterFunction<?> routes() {
-        return route(GET("/hi"),request -> ok().body(just("Hello world!"),String.class));
-    }
-
-    @Bean
-    ApplicationRunner runner(CustomerService customerService) {
-        return args -> System.out.println(customerService.toString());
-    }
-*/
 }
 
 @ToString
